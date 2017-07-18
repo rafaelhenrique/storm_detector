@@ -2,16 +2,19 @@
 
 Try detect storm based on temperature and light
 
-# Install on your raspberry pi
+# Install
 
 ```
-pip install -r requirements.txt
+$ python3 -m venv .venv3
+$ source .venv3/bin/activate
+$ pip install -r requirements.txt
 ```
 
 # Run script
 
 ```
-python storm_detect.py --maxlen 9 --time-hours 24
+$ source .venv3/bin/activate
+$ python storm_detect.py --maxlen 9 --time-hours 24
 ```
 
 # Important note
